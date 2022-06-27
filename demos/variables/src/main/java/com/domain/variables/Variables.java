@@ -29,6 +29,7 @@ public class Variables {
        
        //Formas de declarar e inicializar variables
        //Se declara y al mismo tiempo se incializa
+       //El operador = es un operador de asinacion, te permire asignar en valor de una variable
        int numeroPrueba = 1;
        System.out.println("El valor del numero prueba es: " + numeroPrueba);
        
