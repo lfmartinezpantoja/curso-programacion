@@ -134,5 +134,28 @@ public class Variables {
         System.out.println("Su calificacion final en fisica es: " + calificationFinalFisica);
         
         
+        
+        /**
+         * Ejecicios:
+         * 1. Crear una variable llamada numeroEntero de tipo numerica e inicializar su valor en 10 postetior a esto imprimir su valor 
+         * en consola, de la siguiente manera: El valor de la variable numero entero es: numeroEntero
+         * 2. Despues del ejercicio anterior crear dos nuevas linea de codigo, en la primera linea cambiar el valor de la variable 
+         * numeroEntero a 35, en la segunda linea imprimir nuevamente el valor de la variable de la siguiente manera: 
+         * El valor de la variable numero entero es: numeroEntero, ¿Cual es el valor que se imprimira en consola al ejecutar las dos nuevas lineas?
+         * 3. En este ejercicio se pretende que usted defina el tipo de variable que debe usar dependiendo de las condiciones siguientes:
+         *      1. Ej: crear una variable llamada nombre, que contenga como valor: "Luis" - entendiendo que Luis es un conjunto de caracteres 
+         *         el tipo de variable a usar debe ser un string, es decir la solucion es:
+         *         String nombre = "Luis";
+         *         System.out.println("Variable nombre" + nombre);
+         *      NOTA: Siempre poner un System.out.println que imprima el valor de la variable.
+         *      2. crear una variable de nombre numeroDeCuardernos que tiene un valor de 10
+         *      3. Crear un variable llamada apellido que contenga "Martinez"
+         *      4. Crear una variable llamada numeroDeManzanas que contenga el valor de 0
+         *      5. Crear una variable llamada fernandoEsMayorDeEdad que contenga el valor de true
+         *      6. Crear una variable llamada fernandoEsEnfermero que contenga el valor de false
+         *      7. Crear una variable llamada cedula que contenga el numero 208831553321
+         *      8. Crear una variable llamada cantidadMilitros que contenga el valor: 4.3
+         */
+        
     }
 }
