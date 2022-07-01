@@ -114,6 +114,80 @@ public class Operators {
         boolean esMasculino = false;
         boolean esAdultoYEsMasculino = esAdulto && esMasculino;
         System.out.println("La persona es adulta y de genero masculino: "+ esAdultoYEsMasculino);
-       
+        
+        
+        /**
+         * Operador: o
+         * Ex: Imagina que tiene dos variables booleanas (esAdulto y esMasculino), el valor inicial debe ser false para ambas
+         * Requerimiento: imprimir en consola el siguiente mensaje: 
+         * La persona es adulta o de genero masculino: false
+         * el false al final de la oración debe representar una nueva variable llamada esAdultoOEsMasculino, la tarea es crear la expresion
+         * logica que genere el valor de esa variable
+         */
+
+        boolean esAdultoOEsMasculino = esAdulto || esMasculino;
+        System.out.println("La persona es adulta o de genero masculino: "+ esAdultoYEsMasculino);
+        
+        
+        /**
+         * Operador: >=
+         * Permite comparar 2 valores (variables), retorna true si la primera variable es mayor o igual que la segunda
+         * y false si no
+         * Ex: tenemos dos variables, una representa los fondos en una cuenta (variable:dineroEnCuenta)
+         * y la segunda el monto de un electrodomestico (variable:valorElectrodomestico)
+         * Requerimiento: Se requiere crear una tercera variable (variable: dineroEsSuficiente) que contenga un 
+         * booleano que sea true si los fondos en la cuenta son suficientes y false si los fondos no
+         * son suficienntes para comprar el electrodometico
+         */
+        int dineroEnCuenta = 1000000;
+        int valorElectrodomestico = 90000;
+        
+        boolean dineroEsSuficiente;
+        if(dineroEnCuenta >=  valorElectrodomestico){
+            dineroEsSuficiente = true;
+        }else{
+            dineroEsSuficiente = false;
+        }
+        
+        System.out.println("Usted tiene dinero suficiente en la cuenta: "+ dineroEsSuficiente);
+        
+        //como podemos reducir este codigo anterior
+        boolean dineroEsSuficienteDos = dinero>=valorEctrodomestico;
+        System.out.println("Usted tiene dinero suficiente en la cuenta: "+ dineroEsSuficienteDos);
+        
+        /**
+         * Operador <=
+         * Permite comparar dos variables enteras, la primera variable es menor o igual a la segunda variable.
+         * 
+         * Ex: se tienen dos variables, la primera variable es un numero float que representa la estatura en metros
+         * de una persona (variable: estaturaIngresada) y la segunda es la altura maxima para ingresar a
+         * una atraccion (estaturaMaxima)
+         * Requerimiento: se requiere crear una tercera variable (variable: cumpleConLaEstaturaMaxima) que 
+         * sea true si la estaturaIngresada es menor a la estatura estaturaMaxima y false.
+         */
+        float estaturaIngresada = 1.3f;
+        float estaturaMaxima = 1.3f;
+        
+        boolean cumpleConLaEstaturaMaxima = estaturaIngresada <= estaturaMaxima;
+        System.out.println("La estatura ingresada cumple con el estandar de la estatura maxima: " 
+                + cumpleConLaEstaturaMaxima);
+        
+        /**
+         * Operador ==
+         * Permite comparar dos variables enteras, retorna true si son iguales y false en otro caso.
+         * 
+         * Ex: se tienen dos variables, se require validar si son iguales e imprimir en consola
+         * si son iguales en consola: Las variables son iguales: true o false
+         */
+         
+        int numero = 1;
+        int numeroOther = 2;
+        
+        boolean sonIguales = numero == numeroOther;
+        
+        System.out.println("Las variables son iguales" + sonIguales);
+        
+        
+        
     }
 }
